@@ -1,0 +1,527 @@
+---
+title: "The Learning Difficulties Experienced by Introductory Data Science Students"
+author: <em>Sinem Demirci, Ph.D.</em>
+date: "2023-07-11"
+date-format: "MMMM D[<sup style='font-size:65%;'>th</sup>], YYYY"
+format: 
+  revealjs:
+      theme: slide-style.scss
+      slide-number: true
+      incremental: true
+      chalkboard: true
+---
+
+## Hello!
+
+::: {style="text-align: center; font-size: 28px"}
+```{=html}
+<img src="img/sinem.jpeg" alt="A headshot of a woman with curly, short, shoulder-length hair with green eyes."
+  style="width: 280px; height: 280px; border-radius: 50%; margin-top: 5px; border: 1px solid whitesmoke; padding: 5px;">
+```
+<h1 style="font-size: 34px; margin-top: 20px;line-height: 0.5;">
+
+Sinem Demirci, PhD
+
+</h1>
+
+<h1 style="font-size: 34px; margin-top: 20px; line-height: 1.0;">
+
+Postdoctoral Visiting Researcher/Lecturer - UCL
+
+</h1>
+
+{{< fa link >}}  <a href = "http://sinemdemirci.github.io" style="font-size: 28px; line-height: 0.5;">sinemdemirci.github.io</a>\
+
+{{< fa brands github >}} <a href = "http://github.com/sinemdemirci" style="font-size: 28px; line-height: 0.5;">sinemdemirci</a>\
+
+{{< fa brands twitter >}} <a href = "http://twitter.com/sinemmdemirci" style="font-size: 28px; line-height: 0.5;">sinemmdemirci</a>\
+
+{{< fa brands linkedin >}} <a href = "https://www.linkedin.com/in/drsinemdemirci/" style="font-size: 28px; line-height: 0.5;">drsinemdemirci</a>\
+
+{{< fa envelope >}} <a href = "mailto:s.demirci@ucl.ac.uk" style="font-size: 28px; line-height: 0.5;">s.demirci@ucl.ac.uk</a>\
+
+:::
+
+## Today's Outline
+
+In this talk, I will be talking about
+
+-   Data Science Education in Higher Education Context
+-   The role of Introductory Data Science (IDS) Courses in Data Science Education
+-   Aim of the Study
+-   Methodology
+-   Findings
+-   Conclusions and Discussions
+
+## What is Data Science?
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: {.nonincremental}
+-   Data science is a field that blends multiple areas and demands expertise in a range of skills and concepts spanning statistics, computer science, mathematics, and other domains(Mike and Hazzan, 2023).
+-   An agreement for a single definition for data science is a difficult task because of its multifaceted nature.
+-   A Venn diagram (Figure 1) that integrates Application Domain, Mathematics & Statistics, and Computer Science is typically used to help illustrate the interdisciplinary nature of data science as a discipline.
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: incremental
+::: {style="font-size: 28px"}
+::: fragment
+```{=html}
+<img src="img/data-science.png" alt="Venn diagram of data science composed of application domain, computer science, and mathematics and statistics. Data science is located at the intersection of these three domains."
+  style="width: 450px; height: 450px; margin-top: 15px; border: 3px solid whitesmoke; padding: 5px;">
+```
+:::
+
+::: fragment
+Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
+:::
+:::
+:::
+:::
+:::
+
+## Data Science in Higher Education Context
+
+::: {style="text-align: center; font-size: 30px"}
+-   The interdisciplinary nature of data science has been discussed in data science education community (e.g., Asamoah et al., 2020)
+    -   It brings unique challenges to determine the scope and content of data science courses/majors (Yan & Davis, 2019).
+-   Some initiatives have been taken to provide curriculum guidelines for data science (e.g., De Veaux et al., 2017; National Academies of Sciences, Engineering and Medicine, 2018 ) and essential skills for a data scientist (e.g., De Veaux et al., 2017)
+    -   More research on data science education is required
+        -   to enhance the scope and
+        -   to cultivate proficient data scientists who can meet the growing demand for data scientists in various professional fields.
+:::
+
+## Data Science in Higher Education Context-II
+
+::: {style="text-align: center; font-size: 30px"}
+::: {.nonincremental}
+
+-   The growing demand for competent data scientists is being met by a significant number of students who have an interest in acquiring and applying data science skills. (Donoghue et al., 2021).
+    -   Students are interested in enrolling data science courses and/or pursuing a data science career.
+-   Introductory data science (IDS) course experiences have a potential to attract students to pursue majors, minors, tracks, and certificates offered by institutions (National Academies of Sciences, Engineering and Medicine Consensus Report, 2018)
+    -   Thus, IDS courses have an important role in students' decisions to become data scientists.
+:::
+:::
+
+## Introduction to Data Science Courses
+
+::: {style="text-align: left; font-size: 30px"}
+-   IDS courses are introductory courses offered by different departments such as mathematics, statistics, data science, or computer science aiming to enable individuals to grasp the basics of data science.
+    -   Even though majority of the enrolled students are from these departments, students are coming from almost every major/department to these courses.
+
+:::
+
+
+## Aim of the study
+::: {.nonincremental}
+
+-   This study aims to determine students’ difficulties in IDS courses reported by their instructors.
+:::
+
+## Theoretical Framework of the Study
+::: {.nonincremental}
+::: {style="font-size: 24px"}
+- We adapted a framework that has been used in early computer science education (Bayman & Mayer, 1988; McGill & Volet, 1997; Qian & Lehman, 2017) to classify knowledge of programming into three categories as:
+  - Syntactic Knowledge: "...knowledge of specific facts about a programming language and rules for its use" (McGill & Volet, 1997, p. 277)
+  - Conceptual Knowledge: "...understanding of computer programming constructs and principles" (p. 277).
+  - Strategic Knowledge: Integrating syntactic and conceptual knowledge of programming to solve novel problems (Qian & Lehman, 2017). 
+- Although this framework is designed for programming, we expanded its scope to make it compatible with data science. 
+  - We decided to retain the exact definitions of syntactic and strategic knowledge because they aligned well with the content covered in the IDS courses examined in our study.
+  - We extended the definition of conceptual knowledge to encompass understanding the constructs and principles of mathematics & statistics, computer science, subject-specific knowledge, and interdisciplinary knowledge which are included in defining data science (Mike & Hazzan, 2023) as a discipline. 
+
+:::
+::: 
+
+
+## Methodology
+
+::: {style="font-size: 23px"}
+-   In the present study, *exploratory sequential mixed method*, which is one of the mixed method research designs, was used.
+    -   Researchers initially employ a qualitative method to uncover the essential variables that underlie a phenomenon of interest and provide insights for a subsequent quantitative method. Following that, their focus is on identifying the relationships among these variables.
+
+::: fragment
+![](exploratory.PNG){fig-align="center" width="60%"}
+
+::: {style="text-align: left;"}
+Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
+:::
+:::
+
+-   We completed the qualitative part of this study in the Term 1 and Term 2 of the 2022-2023 academic year.
+    -   In this part, our aim was to understand how IDS instructors interpret their teaching experiences in IDS courses and "what meaning they attribute to their experiences" (Merriam, 2009, p. 23).
+-   Quantitative part which is for testing the scale developed by the researchers will be administered in the next term.
+:::
+
+## Sampling Procedure
+
+::: {style="font-size: 26px"}
+::: {.nonincremental}
+-   We defined the target population to consist of instructors who **taught an introductory data science course at least twice** at the undergraduate level.
+-   Our rationale for recruiting participants was as following:
+    -   We tried to **standardize the name of the IDS courses**.
+        -   We selected participants who taught a course whose title include 'Data Science' and one of the following keywords:
+            -   Introduction, Principles, Elements or Fundamentals
+    -   When an instructor teaches a course for the first time, they focus on multiple aspects of the course as a novice.
+        -   Thus, instructors who have gone through the **second iteration** of the course would be able to reflect deeper about the course and the students.
+-   We recruited **16 participants** (2 pilot, 14 main study) via mailing lists and online forums with large teacher-scholar communities.
+:::
+:::
+
+## Sample Profile
+
+#### IDS Instructors
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: {.nonincremental}
+-   All participants were from Northern America​
+-   Only 4 instructors were the sole instructor in their IDS course. The other participants have either co-instructors or PGTAs/graders.
+-   The instructors had terminal degrees in varying subjects including statistics, mathematics, computer science, genetics, and economics.
+-   They all had been teaching an introductory data science course for a varying number of years, with a range from 1 to 10 years of experience.
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+##### Formal training in Data Science
+
+**Self-taught** -- 4 participants
+
+**Workshops** -- 4 participants
+
+**Industry experience** -- 2 participants
+
+**Others** -- 5 (enrolling some DS courses in graduate years, graduated from closely related areas such as Stat and CS.
+
+##### Formal Training in Teaching
+
+**Workshops** -- 3 participants
+
+**TA trainings** -- 3 participants
+
+**Course/internship** -- 3 participants
+
+**Degree** -- 1 participant
+
+**None** -- 5 participants
+:::
+:::
+:::
+:::
+
+## Sample Profile
+
+#### IDS Classrooms
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+-   Students are coming from almost every major/department.
+
+    -   Majority -- Math, Stat, CS, Data Science
+    -   Others -- Engineering, business school, social science, economics, humanities, life sciences, environmental science, political science, health science, undecided
+
+-   Prerequisite **Yes** -- 6; **No** -- 8
+
+-   Prerequisite to any other course​ **Yes** -- 11; **No** -- 2; **Not sure** -- 1
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+Table 1: Class sizes reported by IDS instructors
+
+| Class Size | n   |
+|------------|-----|
+| 300+       | 2   |
+| 200-299    | 1   |
+| 100-199    | 2   |
+| ...        |     |
+| 30-39      | 2   |
+| 20-29      | 3   |
+| 10-19      | 3   |
+| 1-9        | 1   |
+:::
+:::
+:::
+:::
+
+## Data Collection
+
+::: {style="font-size: 32px"}
+::: {.nonincremental}
+
+-   We collected data through online semi-structured interviews from 14 participants.
+    -   We designed specific questions to explore teaching experiences of IDS instructors.
+    -   We also had some follow-up questions depending on the responses to elaborate their PCK.
+-   Each participant was compensated with a £ 50 gift card for their time.
+:::
+:::
+
+## Data Analysis
+
+::: {style="font-size: 28px"}
+
+- We used qualitative content analysis (Merriam & Tisdell, 2016) for generating a comprehensive codebook.
+- We completed data analysis for the knowledge of students' understanding to determine which concepts/tasks IDS students experience difficulties. 
+- We analysed responses of questions and follow-up questions centered around students' difficulties on
+
+(1) Concepts 
+(2) Conceptual Knowledge
+(3) Performing Data Science Tasks in IDS courses.
+
+- We adapted the framework of Qian and Lehman (2017) which covers introductory programming students' difficulties and extended this framework to introductory data science courses.
+    
+:::
+
+## Validity and Reliability Evidences of the Study
+
+::: {style="font-size: 28px"}
+::: {.nonincremental}
+
+To enhance the trustworthiness of the study, we collected indicators for transferability, dependability, and credibility (Merriam & Tisdell, 2016).
+
+-   Particularly, we provided a detailed description for our participants' profile, data collection and data analysis procedures.
+-   We also had different participants (e.g., differed in terms of year of experience, terminal degree etc.) based on our selection criteria which enabled maximum variation in our sample.
+-   Our research team continuously compared and discussed to determine the extent of codebook based on the theoretical framework and data of the study.
+:::
+:::
+
+## Findings on Students' Difficulties
+
+In this part, we present the findings of our qualitative content analysis for a single component of PCK which were categorized into three themes: (1) Knowledge of Syntactic  Difficulties; (2) Knowledge of Conceptual Difficulties; and (3) Knowledge of Strategic Knowledge Difficulties.
+
+
+## 
+### Knowledge of Syntactic Difficulties I
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: {.nonincremental}
+-   Within the theme of Syntactic Knowledge Difficulties, we identified two categories based on the reports from IDS instructors.
+    -   The first category related to students' difficulties with markup languages and reproducibility tools,
+    -   The second category related to difficulties with programming languages. The codebook for these difficulties is provided in Table 2.
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+Table 2. Knowledge of Students' Syntactic Difficulties
+
+| Categories                                 | Codes                                                                 |
+|----------------------------|--------------------------------------------|
+| Markup Languages and Reproducibility Tools | HTML, R Markdown, Quarto Markdown, Jupyter Notebook,Linux, Git/GitHub |
+| Programming Languages                      | Packages, Libraries, Misspelling, Adapting the Code, How to Read Data |
+:::
+:::
+:::
+:::
+
+## 
+
+### Knowledge of Syntactic Difficulties II
+
+::: {style="font-size: 30px"}
+-   As IDS courses utilized various markup languages, reproducibility tools, and programming languages, IDS instructors reported distinct syntactic difficulties that were specific to their course.
+    -   11 out of 14 IDS instructors observed that students without prior coding experience encountered more syntactic difficulties.
+    -   To support these students, some IDS instructors offer additional sessions and/or office hours.
+    
+:::
+
+## 
+### Knowledge of Conceptual Difficulties-I
+
+::: columns
+::: {.column width="30%"}
+::: {style="font-size: 22px"}
+::: fragment
+::: {.nonincremental}
+We categorized conceptual knowledge difficulties into five categories:
+
+- mathematics
+- statistics
+- computer science
+- domain-specific knowledge and
+- interdisciplinary knowledge.
+
+The codes that emerged from data are given in Table 3.
+
+:::
+
+:::
+:::
+:::
+
+::: {.column width="70%"}
+::: {style="font-size: 22px"}
+::: fragment
+
+Table 3. Knowledge of Conceptual Difficulties
+
+| Category                    | Concepts and Topics                                                                                                                                                                                                                  |
+|-------------------|-----------------------------------------------------|
+| Mathematics                 | Algorithms, Permutation Testing                                                                                                                                                                                                      |
+| Statistics                  | Types of Variables, Confidence Interval, Principles of Data Visualization, Hypothesis Testing, Correlation vs. Causality, Bootstrapping, Inductive Inference, Statistical Analysis Methods-Modelling, p-value, Sampling Distribution |
+| Computer Science            | I/O File Management, Working Mechanisms of Markup Languages, Basics of Coding, Filter Function, Basics of Web Scraping, Select Function, Joining Data Sets, Mapping Functions, Loops, Creating Functions                             |
+| Domain-Specific Knowledge   | Understanding Technical Writing, Understanding the Nature of Data                                                                                                                                                                    |
+| Interdisciplinary Knowledge | Ethics, Machine Learning                                                                                                                                                                                                             |
+:::
+:::
+:::
+:::
+
+## 
+
+### Knowledge of Conceptual Difficulties II
+
+::: {style="font-size: 30px"}
+::: {.nonincremental}
+
+- Among the IDS instructors
+  - Nine reported that students experienced difficulties in understanding statistical concepts, 
+  - Six reported difficulties in understanding computer science concepts. 
+  - Five IDS instructors mentioned difficulties in understanding either the nature of data or technical writing in a specific domain.
+- The principles of data visualization were the most frequently mentioned among the statistical concepts.
+- Understanding the basics of coding and joining data sets were two commonly reported difficulties among the computer science concepts.
+
+:::
+:::
+
+## 
+### Students' Strategic Knowledge Difficulties
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 22px"}
+::: fragment
+::: {.nonincremental}
+
+- Except for 3 IDS instructors, 11 reported observing strategic knowledge difficulties in their IDS courses. 
+- The most frequently mentioned difficulties were debugging and data wrangling. 
+  - Additionally, some of them denoted that students tend to oversimplify data science tasks given in IDS course and try to run a statistical analysis without thinking about the content and examining data set accordingly.
+- A sample excerpt was as following:
+
+
+::: {style="font-size: 16px"}
+"...So certainly, so this so kind of so statistical analysis in so kind of correct statistical analysis in general is a problem. So, everyone is very tempted to just kind of throw any tool they can, they can at the problem and just like, look at the outputs to see if the if the p-value is significant. So, this so I try to instill this kind of skeptical mindset of like, you know, does that, does the model fit? Does the question make sense? ... \[conversation continues\] So that, I would say, is kind of one of the more challenging things to teach."
+:::
+:::
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 17px"}
+::: fragment
+
+Table 4. Knowledge of Students' Strategic Difficulties
+
+| Strategic Knowledge Difficulties                                    |                          |
+| ------------------------------------------------------------------ | ------------------------ |
+| Debugging                                                          |                          |
+| Communication                                                      |                          |
+| Data Wrangling                                                     |                          |
+| Appreciating the complexity of Interdisciplinary Research          |                          |
+| Making Appropriate Data Visualization Decisions                     |                          |
+| Creative Thinking                                                  |                          |
+| Proper Use of Descriptive Statistics                                |                          |
+| Conducting a Good Research                                          |                          |
+| Deciding Statistical Analysis Methods-Modelling                     |                          |
+| Working with Real and Messy Data                                    |                          |
+| Handling Missing Data                                               |                          |
+| Asking Good Questions                                               |                          |
+| Web Scraping                                                       |                          |
+| Setting up Data Science Pipeline                                    |                          |
+
+
+:::
+:::
+:::
+::::
+
+
+
+## Discussion and Conclusion - I
+
+::: {style="font-size: 28px"}
+
+- In summary of our key findings, we examined one of the components of PCK of IDS instructors 
+  - Knowledge of Students' Understanding specific to IDS courses. 
+- Most of them highlighted that students without prior programming knowledge tended to experience more syntactic difficulties and require additional support.
+- Apart from students’ difficulties, some IDS instructors in this study articulated that students have a tendency to oversimplify data science assignments in the IDS course, by attempting to run statistical analyses without adequately considering the content and carefully examining the dataset. 
+  - While some students may oversimplify IDS tasks, we suggest that this oversimplification may also be partially attributed to the difficulties that students face in these courses, which are not yet fully understood. 
+  - Therefore, further studies are needed to measure students' difficulties and identify the specific areas in which they struggle, to better understand the reasons for this “oversimplification”.
+  
+
+:::
+
+
+## Implications and Limitations
+
+::: {style="font-size: 24px"}
+
+- It is noteworthy that while there were some commonalities among the IDS courses examined in this study, each course may have presented its own unique set of dynamics. 
+  - Therefore, our findings may serve as informative rather than generalizable constructs that can inform IDS instructors and the wider data science education community about potential student difficulties and possible teaching profiles. 
+- This study was presented from the perspective of the instructors, not the IDS students. 
+  - Thus, it is essential to conduct more systematic research to assess students’ perspectives in IDS courses as well as observe teachin performances to be able to inform policymakers and educators on how to enhance PCK of IDS instructors.
+- The sample of this study consisted of North American IDS instructors, even though we did not have such a specific aim within the context of the study. 
+  - The possible bias for sample selection might be related to the selection criteria (e.g., selecting participants based on similar course names). 
+  - In other country settings, there might be similar courses with different names. Thus, further studies in other country settings might also provide an insight into other students’ difficulties that we were not able to capture in this study.
+
+:::
+
+## Acknowledgements
+
+- This study is funded by The Scientific and Technological Research Council of Turkey, TÜBİTAK and University College London.
+
+- Collaborators of this project are Dr Mine Dogucu, Assist. Prof. Dr Joshua M. Rosenberg and Teaching Assoc. Prof. Dr Andrew Zieffler
+
+## References
+::: {style="font-size: 14px"}
+Asamoah, D. A., Doran, D., & Schiller, S. (2020). Interdisciplinarity in data science pedagogy: a foundational design. Journal of Computer Information Systems, 60(4), 370-377, https://doi.org/10.1080/08874417.2018.1496803 
+
+De Veaux, R. D., Agarwal, M., Averett, M., Baumer, B. S., Bray, A., Bressoud, T. C., ... & Ye, P. (2017). Curriculum guidelines for undergraduate programs in data science. Annual Review of Statistics and Its Application, 4, 15-30.
+
+Donoghue, T., Voytek, B., & Ellis, S. E. (2021). Teaching creative and practical data science at scale. Journal of Statistics and Data Science Education, 29(sup1), 27-39, https://doi.org/10.1080/10691898.2020.1860725 
+
+Fraenkel, J. R., Wallen, N. E., & Hyun, H. H. (2012). How to design and evaluate research in education (Vol. 7, p. 429). New York: McGraw-hill.
+
+Kelleher, J. D., & Tierney, B. (2018). Data science. MIT Press.
+
+Magnusson, S.J., Borko, H., & Krajcik, J.S. (1999). Nature, source, and development of pedagogical content knowledge for science teaching. In: Gess-Newsome, J., & Lederman, N., (Eds.), Examining Pedagogical Content Knowledge. United States: Kluwer Press. pp. 95-132
+
+Merriam, S. B. (2009). Qualitative Research: A Guide to Design and Implementation. San Francisco: CA: Jossey-Bass. 
+
+Merriam, S. B., & Tisdell, E. J. (2016). Qualitative Research: A Guide to Design and Implementation (Fourth Edition). San Francisco.
+
+Mike K. & Hazzan, O. (February 2023). What is data science? Communications of the ACM, 66(2), 12–13, https://doi.org/10.1145/3575663
+
+National Academies of Sciences, Engineering and Medicine Consensus Report (2018). Data Science for Undergraduates: Opportunities and Options. Washington,  https://nas.edu/envisioningds. 
+
+Park, S., & Chen, Y. C. (2012). Mapping out the integration of the components of pedagogical content knowledge (PCK): Examples from high school biology classrooms. Journal of research in science teaching, 49(7), 922-941.
+
+Park, S., & Oliver, J. S. (2008). Revisiting the conceptualisation of pedagogical content knowledge (PCK): PCK as a conceptual tool to understand teachers as professionals. Research in science Education, 38, 261-284.
+
+Park, S., & Suh, J. K. (2019). The PCK map approach to capturing the complexity of enacted PCK (ePCK) and pedagogical reasoning in science teaching. In Repositioning pedagogical content knowledge in teachers’ knowledge for teaching science, 187-199.
+
+Qian, Y., & Lehman, J. (2017). Students’ misconceptions and other difficulties in introductory programming: A literature review. ACM Transactions on Computing Education (TOCE), 18(1), 1-24, https://doi.org/10.3102/0002831213477680 
+
+Shulman, L. (1987). Knowledge and teaching: Foundations of the new reform. Harvard Educational Review, 57(1), 1-23.
+
+Schwab-McCoy, A., Baker, C. M., & Gasper, R. E. (2021). Data science in 2020: Computing, curricula, and challenges for the next 10 years. Journal of Statistics and Data Science Education, 29(sup1), S40-S50.
+
+Yan, D., & Davis, G. E. (2019). A first course in data science. Journal of Statistics Education, 27(2), 99-109, https://doi.org/10.1080/10691898.2019.1623136 
+:::
