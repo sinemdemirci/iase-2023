@@ -109,29 +109,53 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 
 ## Introduction to Data Science Courses
 
-::: {style="text-align: left; font-size: 30px"}
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: {.nonincremental}
 -   IDS courses are introductory courses offered by different departments such as mathematics, statistics, data science, or computer science aiming to enable individuals to grasp the basics of data science.
     -   Even though majority of the enrolled students are from these departments, students are coming from almost every major/department to these courses.
 
 :::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 20px"}
+
+![<a href="https://www.freepik.com/free-vector/illustration-data-analysis-graph_2807756.htm#query=data%20science&position=2&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik](img/data-science-2.jpg){fig-align="center" width="100%"}
+
+
+
+:::
+:::
+:::
 
 
 ## Aim of the study
-::: {.nonincremental}
+::: {style="font-size: 30px"}
 
--   This study aims to determine students’ difficulties in IDS courses reported by their instructors.
+- While data science education community strives to create curriculum guidelines and determine competencies for data scientists and data science students, we would like to direct attention to the importance of the learning difficulties of data science education students 
+  - Learning difficulties constrain them developing a sound understanding of data science and making progress (Qian & Lehman, 2017).
+
+- This study aims to determine students’ difficulties in IDS courses reported by their instructors.
+  - It is evident that teachers’ awareness of students’ difficulties is an essential aspect of effective teaching (Sadler et al. 2013). 
+  - Thus, determining students’ difficulties might provide an insight into how to enhance IDS teaching and revise the scope of IDS courses as well as data science majors/programs. 
+
 :::
 
-## Theoretical Framework of the Study
+##
+### Theoretical Framework of the Study
 ::: {.nonincremental}
 ::: {style="font-size: 24px"}
+
 - We adapted a framework that has been used in early computer science education (Bayman & Mayer, 1988; McGill & Volet, 1997; Qian & Lehman, 2017) to classify knowledge of programming into three categories as:
-  - Syntactic Knowledge: "...knowledge of specific facts about a programming language and rules for its use" (McGill & Volet, 1997, p. 277)
-  - Conceptual Knowledge: "...understanding of computer programming constructs and principles" (p. 277).
-  - Strategic Knowledge: Integrating syntactic and conceptual knowledge of programming to solve novel problems (Qian & Lehman, 2017). 
-- Although this framework is designed for programming, we expanded its scope to make it compatible with data science. 
-  - We decided to retain the exact definitions of syntactic and strategic knowledge because they aligned well with the content covered in the IDS courses examined in our study.
-  - We extended the definition of conceptual knowledge to encompass understanding the constructs and principles of mathematics & statistics, computer science, subject-specific knowledge, and interdisciplinary knowledge which are included in defining data science (Mike & Hazzan, 2023) as a discipline. 
+  - **Syntactic Knowledge:** "...knowledge of specific facts about a programming language and rules for its use" (McGill & Volet, 1997, p. 277)
+  - **Conceptual Knowledge:** "...understanding of computer programming constructs and principles" (p. 277).
+  - **Strategic Knowledge:** Integrating syntactic and conceptual knowledge of programming to solve novel problems (Qian & Lehman, 2017). 
+- We expanded its scope to make it compatible with *data science*. 
+  - We decided to retain the exact definitions of syntactic and strategic knowledge.
+  - We extended the definition of *conceptual knowledge* to encompass understanding the constructs and principles of mathematics & statistics, computer science, subject-specific knowledge, and interdisciplinary knowledge which are included in defining data science (Mike & Hazzan, 2023) as a discipline. 
 
 :::
 ::: 
@@ -140,20 +164,15 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 ## Methodology
 
 ::: {style="font-size: 23px"}
--   In the present study, *exploratory sequential mixed method*, which is one of the mixed method research designs, was used.
-    -   Researchers initially employ a qualitative method to uncover the essential variables that underlie a phenomenon of interest and provide insights for a subsequent quantitative method. Following that, their focus is on identifying the relationships among these variables.
-
-::: fragment
-![](exploratory.PNG){fig-align="center" width="60%"}
-
-::: {style="text-align: left;"}
-Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
-:::
-:::
-
+- In this study, we chose *qualitative research* design (Merriam & Tisdell, 2016)
+  - Our aim was to understand how IDS instructors classify and interpret students’ difficulties in IDS courses and 
+  - “what meaning they attribute to their experiences” (Merriam, 2009, p. 23). 
+  
+- This study is a subset of a larger study.
 -   We completed the qualitative part of this study in the Term 1 and Term 2 of the 2022-2023 academic year.
     -   In this part, our aim was to understand how IDS instructors interpret their teaching experiences in IDS courses and "what meaning they attribute to their experiences" (Merriam, 2009, p. 23).
 -   Quantitative part which is for testing the scale developed by the researchers will be administered in the next term.
+
 :::
 
 ## Sampling Procedure
@@ -374,7 +393,7 @@ Table 3. Knowledge of Conceptual Difficulties
 | Category                    | Concepts and Topics                                                                                                                                                                                                                  |
 |-------------------|-----------------------------------------------------|
 | Mathematics                 | Algorithms, Permutation Testing                                                                                                                                                                                                      |
-| Statistics                  | Types of Variables, Confidence Interval, Principles of Data Visualization, Hypothesis Testing, Correlation vs. Causality, Bootstrapping, Inductive Inference, Statistical Analysis Methods-Modelling, p-value, Sampling Distribution |
+| Statistics                  | Types of Variables, Confidence Interval, Principles of Data Visualization, Hypothesis Testing, Correlation vs. Causality, Bootstrapping, Inductive Inference, Statistical Modelling, p-value, Sampling Distribution |
 | Computer Science            | I/O File Management, Working Mechanisms of Markup Languages, Basics of Coding, Filter Function, Basics of Web Scraping, Select Function, Joining Data Sets, Mapping Functions, Loops, Creating Functions                             |
 | Domain-Specific Knowledge   | Understanding Technical Writing, Understanding the Nature of Data                                                                                                                                                                    |
 | Interdisciplinary Knowledge | Ethics, Machine Learning                                                                                                                                                                                                             |
@@ -468,19 +487,21 @@ Table 4. Knowledge of Students' Strategic Difficulties
 
 :::
 
+##
+### Implications and Limitations
 
-## Implications and Limitations
-
-::: {style="font-size: 24px"}
+::: {style="font-size: 22px"}
 
 - It is noteworthy that while there were some commonalities among the IDS courses examined in this study, each course may have presented its own unique set of dynamics. 
-  - Therefore, our findings may serve as informative rather than generalizable constructs that can inform IDS instructors and the wider data science education community about potential student difficulties and possible teaching profiles. 
+  - Therefore, our findings may serve as informative rather than generalizable constructs that can inform IDS instructors and the wider data science education community. 
 - This study was presented from the perspective of the instructors, not the IDS students. 
-  - Thus, it is essential to conduct more systematic research to assess students’ perspectives in IDS courses as well as observe teachin performances to be able to inform policymakers and educators on how to enhance PCK of IDS instructors.
+  - Thus, it is essential to conduct more systematic research to assess students’ perspectives in IDS courses as well as observe teaching performances to be able to inform policymakers and educators on how to enhance PCK of IDS instructors.
 - The sample of this study consisted of North American IDS instructors, even though we did not have such a specific aim within the context of the study. 
   - The possible bias for sample selection might be related to the selection criteria (e.g., selecting participants based on similar course names). 
   - In other country settings, there might be similar courses with different names. Thus, further studies in other country settings might also provide an insight into other students’ difficulties that we were not able to capture in this study.
-
+- We incorporated a framework utilized from early computer science education (e.g., Bayman & Mayer, 1988; McGill & Volet, 1997; Qian & Lehman, 2017) to analyze the data and adapted to IDS context.
+  - While we found the framework useful in providing an initial understanding, we acknowledge the potential requirement for further modifications to actively classify knowledge in IDS classes.
+  
 :::
 
 ## Acknowledgements
