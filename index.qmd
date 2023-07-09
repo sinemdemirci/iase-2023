@@ -163,14 +163,12 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 
 ## Methodology
 
-::: {style="font-size: 23px"}
+::: {style="font-size: 28px"}
 - In this study, we chose *qualitative research* design (Merriam & Tisdell, 2016)
   - Our aim was to understand how IDS instructors classify and interpret students’ difficulties in IDS courses and 
   - “what meaning they attribute to their experiences” (Merriam, 2009, p. 23). 
-  
 - This study is a subset of a larger study.
 -   We completed the qualitative part of this study in the Term 1 and Term 2 of the 2022-2023 academic year.
-    -   In this part, our aim was to understand how IDS instructors interpret their teaching experiences in IDS courses and "what meaning they attribute to their experiences" (Merriam, 2009, p. 23).
 -   Quantitative part which is for testing the scale developed by the researchers will be administered in the next term.
 
 :::
@@ -275,24 +273,11 @@ Table 1: Class sizes reported by IDS instructors
 :::
 :::
 
-## Data Collection
-
-::: {style="font-size: 32px"}
-::: {.nonincremental}
-
--   We collected data through online semi-structured interviews from 14 participants.
-    -   We designed specific questions to explore teaching experiences of IDS instructors.
-    -   We also had some follow-up questions depending on the responses to elaborate their PCK.
--   Each participant was compensated with a £ 50 gift card for their time.
-:::
-:::
-
-## Data Analysis
+## Data Collection and Data Analysis
 
 ::: {style="font-size: 28px"}
-
-- We used qualitative content analysis (Merriam & Tisdell, 2016) for generating a comprehensive codebook.
-- We completed data analysis for the knowledge of students' understanding to determine which concepts/tasks IDS students experience difficulties. 
+-   We collected data through online semi-structured interviews from 14 participants.
+- We used *qualitative content analysis* (Merriam & Tisdell, 2016) for generating a comprehensive codebook.
 - We analysed responses of questions and follow-up questions centered around students' difficulties on
 
 (1) Concepts 
@@ -318,11 +303,11 @@ To enhance the trustworthiness of the study, we collected indicators for transfe
 
 ## Findings on Students' Difficulties
 
-In this part, we present the findings of our qualitative content analysis for a single component of PCK which were categorized into three themes: (1) Knowledge of Syntactic  Difficulties; (2) Knowledge of Conceptual Difficulties; and (3) Knowledge of Strategic Knowledge Difficulties.
+In this part, we present the findings of study which were categorized into three themes (1) Syntactic Knowledge Difficulties; (2) Conceptual Knowledge Difficulties; and (3) Strategic Knowledge Difficulties.
 
 
 ## 
-### Knowledge of Syntactic Difficulties I
+### Syntactic Knowledge Difficulties I
 
 ::: columns
 ::: {.column width="50%"}
@@ -351,7 +336,7 @@ Table 2. Knowledge of Students' Syntactic Difficulties
 
 ## 
 
-### Knowledge of Syntactic Difficulties II
+### Syntactic Knowledge Difficulties II
 
 ::: {style="font-size: 30px"}
 -   As IDS courses utilized various markup languages, reproducibility tools, and programming languages, IDS instructors reported distinct syntactic difficulties that were specific to their course.
@@ -361,7 +346,7 @@ Table 2. Knowledge of Students' Syntactic Difficulties
 :::
 
 ## 
-### Knowledge of Conceptual Difficulties-I
+###  Conceptual Knowledge Difficulties-I
 
 ::: columns
 ::: {.column width="30%"}
@@ -403,8 +388,7 @@ Table 3. Knowledge of Conceptual Difficulties
 :::
 
 ## 
-
-### Knowledge of Conceptual Difficulties II
+### Conceptual Knowledge Difficulties II
 
 ::: {style="font-size: 30px"}
 ::: {.nonincremental}
@@ -473,12 +457,11 @@ Table 4. Knowledge of Students' Strategic Difficulties
 
 
 
-## Discussion and Conclusion - I
+## Discussion and Conclusion
 
 ::: {style="font-size: 28px"}
 
-- In summary of our key findings, we examined one of the components of PCK of IDS instructors 
-  - Knowledge of Students' Understanding specific to IDS courses. 
+- In summary of our key findings, we examined responsed of IDS instructors on students' Understanding specific to IDS courses. 
 - Most of them highlighted that students without prior programming knowledge tended to experience more syntactic difficulties and require additional support.
 - Apart from students’ difficulties, some IDS instructors in this study articulated that students have a tendency to oversimplify data science assignments in the IDS course, by attempting to run statistical analyses without adequately considering the content and carefully examining the dataset. 
   - While some students may oversimplify IDS tasks, we suggest that this oversimplification may also be partially attributed to the difficulties that students face in these courses, which are not yet fully understood. 
@@ -495,7 +478,7 @@ Table 4. Knowledge of Students' Strategic Difficulties
 - It is noteworthy that while there were some commonalities among the IDS courses examined in this study, each course may have presented its own unique set of dynamics. 
   - Therefore, our findings may serve as informative rather than generalizable constructs that can inform IDS instructors and the wider data science education community. 
 - This study was presented from the perspective of the instructors, not the IDS students. 
-  - Thus, it is essential to conduct more systematic research to assess students’ perspectives in IDS courses as well as observe teaching performances to be able to inform policymakers and educators on how to enhance PCK of IDS instructors.
+  - Thus, it is essential to conduct more systematic research to assess students’ perspectives in IDS courses as well as observe classroom environments to be able to inform policymakers and educators on how to improve learning environments in IDS courses.
 - The sample of this study consisted of North American IDS instructors, even though we did not have such a specific aim within the context of the study. 
   - The possible bias for sample selection might be related to the selection criteria (e.g., selecting participants based on similar course names). 
   - In other country settings, there might be similar courses with different names. Thus, further studies in other country settings might also provide an insight into other students’ difficulties that we were not able to capture in this study.
@@ -514,15 +497,16 @@ Table 4. Knowledge of Students' Strategic Difficulties
 ::: {style="font-size: 14px"}
 Asamoah, D. A., Doran, D., & Schiller, S. (2020). Interdisciplinarity in data science pedagogy: a foundational design. Journal of Computer Information Systems, 60(4), 370-377, https://doi.org/10.1080/08874417.2018.1496803 
 
+Bayman, P., & Mayer, R. E. (1988). Using conceptual models to teach BASIC computer programming. Journal of Educational Psychology, 80(3), 291,  https://psycnet.apa.org/doi/10.1037/0022-0663.80.3.291 
+
+Danyluk, A., & Leidig, P. (2021). Computing competencies for undergraduate data science curricula: ACM data science task force. Peer-Reviewed Publications, 8,
+https://scholarworks.gvsu.edu/cispeerpubs/8 
+
 De Veaux, R. D., Agarwal, M., Averett, M., Baumer, B. S., Bray, A., Bressoud, T. C., ... & Ye, P. (2017). Curriculum guidelines for undergraduate programs in data science. Annual Review of Statistics and Its Application, 4, 15-30.
 
 Donoghue, T., Voytek, B., & Ellis, S. E. (2021). Teaching creative and practical data science at scale. Journal of Statistics and Data Science Education, 29(sup1), 27-39, https://doi.org/10.1080/10691898.2020.1860725 
 
 Fraenkel, J. R., Wallen, N. E., & Hyun, H. H. (2012). How to design and evaluate research in education (Vol. 7, p. 429). New York: McGraw-hill.
-
-Kelleher, J. D., & Tierney, B. (2018). Data science. MIT Press.
-
-Magnusson, S.J., Borko, H., & Krajcik, J.S. (1999). Nature, source, and development of pedagogical content knowledge for science teaching. In: Gess-Newsome, J., & Lederman, N., (Eds.), Examining Pedagogical Content Knowledge. United States: Kluwer Press. pp. 95-132
 
 Merriam, S. B. (2009). Qualitative Research: A Guide to Design and Implementation. San Francisco: CA: Jossey-Bass. 
 
@@ -532,17 +516,8 @@ Mike K. & Hazzan, O. (February 2023). What is data science? Communications of th
 
 National Academies of Sciences, Engineering and Medicine Consensus Report (2018). Data Science for Undergraduates: Opportunities and Options. Washington,  https://nas.edu/envisioningds. 
 
-Park, S., & Chen, Y. C. (2012). Mapping out the integration of the components of pedagogical content knowledge (PCK): Examples from high school biology classrooms. Journal of research in science teaching, 49(7), 922-941.
-
-Park, S., & Oliver, J. S. (2008). Revisiting the conceptualisation of pedagogical content knowledge (PCK): PCK as a conceptual tool to understand teachers as professionals. Research in science Education, 38, 261-284.
-
-Park, S., & Suh, J. K. (2019). The PCK map approach to capturing the complexity of enacted PCK (ePCK) and pedagogical reasoning in science teaching. In Repositioning pedagogical content knowledge in teachers’ knowledge for teaching science, 187-199.
 
 Qian, Y., & Lehman, J. (2017). Students’ misconceptions and other difficulties in introductory programming: A literature review. ACM Transactions on Computing Education (TOCE), 18(1), 1-24, https://doi.org/10.3102/0002831213477680 
-
-Shulman, L. (1987). Knowledge and teaching: Foundations of the new reform. Harvard Educational Review, 57(1), 1-23.
-
-Schwab-McCoy, A., Baker, C. M., & Gasper, R. E. (2021). Data science in 2020: Computing, curricula, and challenges for the next 10 years. Journal of Statistics and Data Science Education, 29(sup1), S40-S50.
 
 Yan, D., & Davis, G. E. (2019). A first course in data science. Journal of Statistics Education, 27(2), 99-109, https://doi.org/10.1080/10691898.2019.1623136 
 :::
