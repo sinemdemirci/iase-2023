@@ -188,9 +188,8 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 :::
 :::
 
-## Sample Profile
-
-#### IDS Instructors
+## 
+#### Sample Profile - IDS Instructors
 
 ::: columns
 ::: {.column width="50%"}
@@ -206,7 +205,6 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 
 ::: {.column width="50%"}
 ::: {style="font-size: 28px"}
-::: fragment
 ##### Formal training in Data Science
 
 **Self-taught** -- 4 participants
@@ -231,11 +229,9 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 :::
 :::
 :::
-:::
 
-## Sample Profile
-
-#### IDS Classrooms
+## 
+#### Sample Profile - IDS Classrooms
 
 ::: columns
 ::: {.column width="50%"}
