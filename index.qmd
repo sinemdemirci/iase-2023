@@ -457,7 +457,7 @@ Table 4. Knowledge of Students' Strategic Difficulties
 
 ::: {style="font-size: 28px"}
 
-- In summary of our key findings, we examined responsed of IDS instructors on students' Understanding specific to IDS courses. 
+- In summary of our key findings, we examined responses of IDS instructors on students' understanding specific to IDS courses. 
 - Most of them highlighted that students without prior programming knowledge tended to experience more syntactic difficulties and require additional support.
 - Apart from students’ difficulties, some IDS instructors in this study articulated that students have a tendency to oversimplify data science assignments in the IDS course, by attempting to run statistical analyses without adequately considering the content and carefully examining the dataset. 
   - While some students may oversimplify IDS tasks, we suggest that this oversimplification may also be partially attributed to the difficulties that students face in these courses, which are not yet fully understood. 
